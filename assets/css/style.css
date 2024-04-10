@@ -1,0 +1,79 @@
+body {
+    background-color: hsl(0, 0%, 0%);
+    font-family: Inter; 
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    padding: 20vh 0;
+}
+
+div[role="social-profile"] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    width: 250px;
+    border-radius: 12px;
+    padding: 40px;
+
+}
+
+div[role="profile"] {
+display:flex;
+flex-direction: column;
+}
+
+h1.account-name {
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 5px;;
+}
+
+div[role="profile"] img {
+    border-radius: 50%;
+    width: 75px;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+h4 {
+    margin-top: 5px;
+    color:hsl(75, 94%, 57%);
+    font-size: 12px;
+}
+
+p {
+    margin-top: 10px;
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+}
+
+#social-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.linkbutton {
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    color: hsl(0, 0%, 12%); 
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
+
+
+/* - Family: [Inter](https://fonts.google.com/specimen/Inter)
+- Weights: 400, 600, 700 */
