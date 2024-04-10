@@ -7,7 +7,7 @@ body {
     padding: 20vh 0;
 }
 
-div[role="social-profile"] {
+#social-profile {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,7 +19,7 @@ div[role="social-profile"] {
 
 }
 
-div[role="profile"] {
+#profile {
 display:flex;
 flex-direction: column;
 }
@@ -31,7 +31,7 @@ h1.account-name {
     margin-bottom: 5px;;
 }
 
-div[role="profile"] img {
+#profile img {
     border-radius: 50%;
     width: 75px;
     align-self: center;
